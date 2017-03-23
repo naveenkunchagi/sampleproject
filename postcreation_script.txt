@@ -1,0 +1,7 @@
+#cloud-config
+chpasswd:
+ list: |
+   root:stackops
+   cloud-user:stackops
+ expire: False
+ssh_pwauth: True
