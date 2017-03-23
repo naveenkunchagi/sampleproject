@@ -1,7 +1,7 @@
 #cloud-config
 chpasswd:
  list: |
-   root:stackops
-   cloud-user:stackops
+   root:remote_user
+   cloud-user:remote_user
  expire: False
 ssh_pwauth: True
